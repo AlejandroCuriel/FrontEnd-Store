@@ -46,3 +46,27 @@ html {
   h1{ font-size: 4rem; }
   h2{ font-size: 3.2rem; }
   h3{ font-size: 2.4rem; }
+
+/* HEADER */
+.header{
+    display: flex;
+    justify-content: center;
+}
+.header__logo{
+    margin: 3rem 0;
+}
+.navigation{
+    background-color: var(--primarioOscuro);
+    padding: 1rem 0;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+.link__navigation{
+    font-family: var(--fuentePrincipal);
+    color: var(--blanco);
+    font-size: 3rem;
+}
+.link__navigation--active, .link__navigation:hover{
+    color: var(--secundario);
+}
